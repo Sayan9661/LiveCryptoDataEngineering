@@ -33,7 +33,8 @@ Note: If you deploy each module locally, `userdb` and `dbpass` are the environme
 
 `producer_bitcoin.py` - API Endpoint Scripts which ingests data form API calls to kafka for Bitcoin data.<br>
 `producer_ethereum.py` - API Endpoint Scripts which ingests data form API calls to kafka for Ethereum data.<br>
-`producer_solan.py` - API Endpoint Scripts which ingests data form API calls to kafka for Solana data.<br>
+`producer_solana.py` - API Endpoint Scripts which ingests data form API calls to kafka for Solana data.<br>
+`producer_dogecoin.py` - API Endpoint Scripts which ingests data form API calls to kafka for Dogecoin data.<br>
 
 ### Kafka Code:
 
