@@ -6,14 +6,15 @@ This is our project for NYU-CS 6513 Big Data. Our intention for this project is 
 To understand our pipline, if you are a NYU student/faculty you can checkout our presentation slides:
 https://docs.google.com/presentation/d/1a31ZSwoWalOhHMRE-DMZHV_bYN83mCTpYGzosStfRjE/edit?usp=sharing
 
-In the first iteration, we are visualizing 4 famous cryptocurrencies. 
+In this first iteration, we are visualizing the price of 4 famous cryptocurrencies: Bitcoin, Ethereum, Solana, Dogecoin.
 
-The final visualization product is created by Knowi and Grafana, checkout here for our knowi dashboard:
+The visualization product is powered by Knowi and Grafana, checkout here for our Knowi dashboard:
+
 https://www.knowi.com/d/E19ii0ripipLedrFLUbN1wh44lisFge40lBg1sDMOqKtZkUie
 
 The visualization should be updating live in 1-minute interval, indicating that the pipline is functioning. 
 
-Grafana is our dockerzied version of visualization tool (running on Google Cloud), to see the output, login using username: `BigData` and password `bigdata2023` and then access the link:
+Grafana is our dockerzied version of visualization tool (running on Google Cloud). To see the output, login using username: `BigData` and password `bigdata2023` and then access the link:
 
 http://35.232.134.197:3000/d/b629c4e8-dd84-43cb-94cd-640d322be4ac/new-dashboard?orgId=1&refresh=10s
 
@@ -26,7 +27,7 @@ If you want to deploy each module locally, use `docker compose up` when your `cw
 
 Note: If you deploy each module locally, `userdb` and `dbpass` are the environment variables that need to be set to connect to our cloud database. Contact us if you are one of the NYU students/faculties and want to connect to our database.
 
-## Scripts:
+## Repo Contents:
 
 ### API Scripts:
 
