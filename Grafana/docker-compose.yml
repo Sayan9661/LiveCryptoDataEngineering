@@ -1,0 +1,13 @@
+
+
+
+version: "2"
+
+services:
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - 3000:3000
+    user: root
+    volumes:
+      - ./grafana:/db-creds
