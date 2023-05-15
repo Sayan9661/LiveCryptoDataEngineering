@@ -1,5 +1,6 @@
 # LiveCryptoDataEngineering
 
+
 # Project Description
 This is our project for NYU-CS 6513 Big Data. Our intention for this project is to build a big data pipline that creates a highly scalable system to pull data from online cryptocurrencies APIs using Kafka, transform the data using Spark, save it in our Cassandra database, and perform computation and live-updating visualization. 
 
@@ -56,4 +57,7 @@ Note: If you deploy each module locally, `userdb` and `dbpass` are the environme
 `test_insert_solana.py` - Script to inject solana data into databases from api. For testing purpose only. <br>
 
 ### Spark, Kafka and Grafana folders contain the docker-compose-yml files to host the tech stack on Docker.
+
+
+
 
