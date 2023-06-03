@@ -5,7 +5,7 @@
 # Project Description
 This is our project for NYU-CS 6513 Big Data. Our intention for this project is to build a big data pipline that creates a highly scalable system to pull data from online cryptocurrencies APIs using Kafka, transform the data using Spark, save it in our Cassandra database, and perform computation and live-updating visualization. 
 
-To understand our pipline, if you are a NYU student/faculty you can checkout our presentation slides:
+To understand our pipeline, if you are a NYU student/faculty you can checkout our presentation slides:
 https://docs.google.com/presentation/d/1a31ZSwoWalOhHMRE-DMZHV_bYN83mCTpYGzosStfRjE/edit?usp=sharing
 
 In this first iteration, we are visualizing the price of 4 famous cryptocurrencies: Bitcoin, Ethereum, Solana, Dogecoin.
