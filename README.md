@@ -23,7 +23,7 @@ http://35.232.134.197:3000/d/b629c4e8-dd84-43cb-94cd-640d322be4ac/new-dashboard?
 We plan on adding more features later. 
 
 # Environment Setup
-Our pipline is functioning entirely on Google Cloud and each module is fully containerized, with the exception being Cassandra-db which is native on cloud.
+Our pipeline is functioning entirely on Google Cloud and each module is fully containerized, with the exception being Cassandra-db which is native on cloud.
 
 If you want to deploy each module locally, use `docker compose up` when your `cwd` is inside of our docker folder where the `.yml` files exists.
 
